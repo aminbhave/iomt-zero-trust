@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+scapy
+pyjwt[crypto]
+pycryptodome
+cryptography
+wfdb
+boto3
+requests
+flask
+pytest
+httpx
+numpy
