@@ -1,0 +1,37 @@
+# RSA keys (auto-generated on first run)
+keys/*.pem
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+pep-env/
+
+# Test/benchmark output
+.pytest_cache/
+results/*.csv
+results/*.json
+htmlcov/
+.coverage
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# AWS credentials (should NEVER be committed)
+*.pem
+!requirements.txt
